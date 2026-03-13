@@ -18,6 +18,10 @@
       { "type": "ui", "section": "User Interface" }
     ],
   "packages": {
-    ".": {}
+    ".": {
+      "release-type": "node",
+      "package-name": "habit-flow",
+      "bump-minor-pre-major": true
+    }
   }
 }
