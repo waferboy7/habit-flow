@@ -19,6 +19,9 @@
     "typecheck": "tsc --noEmit",
     "prepare": "husky"
   },
+  "lint-staged": {    
+    "*.(ts|tsx)": ["npm check:write", "git add"]  
+  },
   "dependencies": {
     "vue": "^3.5.25"
   },
